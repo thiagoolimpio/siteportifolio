@@ -10,6 +10,9 @@
             padding: 0;
             font-family: Arial, Helvetica, sans-serif;
         }
+        body{
+            background-color: #f1f1f1;
+        }
         header{
             display: flex;
             justify-content: space-between;
@@ -18,36 +21,70 @@
             padding: 20px;
             background-color: #333;
             color: #fff;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
         }
         h1{
             text-transform: uppercase;
         }
-        nav ul{
-            list-style: none;
-            display: flex;
+        a{
+            color: #fff;
+            text-decoration: none;
         }
-        nav ul li{
+        nav ul{
+            display: flex;
+            list-style: none;
+        }
+        nav li{
             margin-right: 20px;
         }
-       
+        nav a{
+            color: #fff;
+            text-decoration: none;
+        }
+        nav a:hover{
+            text-decoration: underline;
+            color: #acacac;
+            
+        }
+        
         main{
-            padding: 20px;
+            padding-top: 20px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 20px;
+            
+            
 
+        }
+         p{
+            font-size: 25px;
+        }
+        h2{
+            font-size: 30px;
         }
         .apresentacao{
             margin-bottom: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
+            background-color: rgba(0, 0, 0, 0.199);
+            border-radius: 20px;
+            margin: 8px;
+            padding: 10px;
         }
         .trabalhos{
             margin-bottom: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
-
+            background-color: rgba(0, 0, 0, 0.199);
+            border-radius: 20px;
+            margin: 8px;
+            padding: 10px;
         }
     </style>
+    <style-type="text/css"></style-type>
 </head>
 <body>
     <header>
@@ -69,7 +106,7 @@
             <h2>Meus Trabalhos</h2>
             <p>Alguns dos meus trabalhos:</p>
             <ul>
-                <li><a href="https://imc-cxsinc.netlify.app/">calculadora de imc</a></li>
+                <li><a style="color: rgb(51, 0, 170);" href="https://imc-cxsinc.netlify.app/" >calculadora de imc</a></li>
                 <!--colocar mais links depois -->
                 <li><a href=""></a></li>
             </ul>
