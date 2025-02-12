@@ -1,1 +1,2 @@
-ola, primeiramente gostaria de pedir encarecidamente para que me sigam em minhas redes sociais, as quais irei citar logo abaixo:
+colocar os links corretos na aba de contatos.
+preencher mais a index.
