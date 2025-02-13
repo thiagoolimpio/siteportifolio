@@ -31,7 +31,9 @@ footer{
 h1{
     text-transform: uppercase;
     letter-spacing: 2px;
+    
 }
+
 a{
     color: #4d4d4db9;
     text-decoration: none;
@@ -87,6 +89,16 @@ h2{
     padding: 10px;
 }
 .contato{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 20px;
+    margin: 8px;
+    padding: 10px;
+}
+.habilidade{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
